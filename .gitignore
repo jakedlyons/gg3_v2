@@ -1,9 +1,36 @@
-.ipynb_checkpoints
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python caches
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 .venv/
 venv/
 env/
-.DS_Store
+
+# Packaging/build output
 *.egg-info/
+build/
+dist/
+
+# Test, type-check, and coverage output
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
